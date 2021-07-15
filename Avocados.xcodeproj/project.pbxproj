@@ -11,8 +11,6 @@
 		A5604F36269FBF7800172B83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5604F35269FBF7800172B83 /* ContentView.swift */; };
 		A5604F38269FBF7B00172B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5604F37269FBF7B00172B83 /* Assets.xcassets */; };
 		A5604F3B269FBF7B00172B83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5604F3A269FBF7B00172B83 /* Preview Assets.xcassets */; };
-		A5604F3D269FBF7B00172B83 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5604F3C269FBF7B00172B83 /* Persistence.swift */; };
-		A5604F40269FBF7B00172B83 /* Avocados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5604F3E269FBF7B00172B83 /* Avocados.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +19,6 @@
 		A5604F35269FBF7800172B83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5604F37269FBF7B00172B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5604F3A269FBF7B00172B83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A5604F3C269FBF7B00172B83 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A5604F3F269FBF7B00172B83 /* Avocados.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avocados.xcdatamodel; sourceTree = "<group>"; };
 		A5604F41269FBF7B00172B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,9 +55,7 @@
 				A5604F33269FBF7800172B83 /* AvocadosApp.swift */,
 				A5604F35269FBF7800172B83 /* ContentView.swift */,
 				A5604F37269FBF7B00172B83 /* Assets.xcassets */,
-				A5604F3C269FBF7B00172B83 /* Persistence.swift */,
 				A5604F41269FBF7B00172B83 /* Info.plist */,
-				A5604F3E269FBF7B00172B83 /* Avocados.xcdatamodeld */,
 				A5604F39269FBF7B00172B83 /* Preview Content */,
 			);
 			path = Avocados;
@@ -144,8 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5604F3D269FBF7B00172B83 /* Persistence.swift in Sources */,
-				A5604F40269FBF7B00172B83 /* Avocados.xcdatamodeld in Sources */,
 				A5604F36269FBF7800172B83 /* ContentView.swift in Sources */,
 				A5604F34269FBF7800172B83 /* AvocadosApp.swift in Sources */,
 			);
@@ -336,19 +328,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A5604F3E269FBF7B00172B83 /* Avocados.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A5604F3F269FBF7B00172B83 /* Avocados.xcdatamodel */,
-			);
-			currentVersion = A5604F3F269FBF7B00172B83 /* Avocados.xcdatamodel */;
-			path = Avocados.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A5604F28269FBF7800172B83 /* Project object */;
 }
