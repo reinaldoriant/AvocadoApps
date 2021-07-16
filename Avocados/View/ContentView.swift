@@ -9,7 +9,9 @@ import SwiftUI
 
 
 struct ContentView: View {
-
+    
+    var header: [Header] = headerData
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
             VStack(alignment: .center, spacing: 20){
@@ -18,7 +20,9 @@ struct ContentView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(alignment: .top, spacing: 0) {
-                        HeaderView()
+                        ForEach(header){ item in
+                            HeaderView(header: item)
+                        }
                     }
                 }
                 
@@ -48,6 +52,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(header: headerData)
     }
 }
