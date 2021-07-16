@@ -10,7 +10,7 @@ import SwiftUI
 struct AvocadoView: View {
     //MARK : - Property
     
-    @State private var pulsaAnimation:Bool
+    @State private var pulsaAnimation:Bool = false
     
     // MARK : - Body
     var body: some View {
