@@ -9,9 +9,9 @@ import SwiftUI
 
 struct DishesView: View {
     var body: some View {
-        HStack{
+        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 4){
             //MARK : - LeftSide
-            VStack{
+            VStack(alignment: .leading, spacing: 4){
                 HStack(){
                     Image("icon-toasts")
                         .resizable()
@@ -45,12 +45,13 @@ struct DishesView: View {
                 }
             }
             //MARK : - MiddleSide
-            VStack{
+            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 16){
                 HStack{
                     Divider()
                 }
                 Image(systemName: "heart.circle")
                     .imageScale(.large)
+                    .font(Font.title.weight(.ultraLight))
 
                 HStack{
                     Divider()
@@ -58,7 +59,7 @@ struct DishesView: View {
             }
             
             //MARK : - RightSide
-            VStack{
+            VStack(alignment: .trailing, spacing: 4){
                 HStack(){
                     Text("Guacamole")
                     Spacer()

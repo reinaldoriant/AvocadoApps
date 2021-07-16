@@ -29,7 +29,7 @@ struct HeaderView: View {
                 Rectangle()
                     .fill(Color("ColorGreenLight"))
                     .frame(width:4)
-                VStack{
+                VStack(alignment: .leading, spacing: 6){
                     Text(header.headline)
                         .font(.system(.title,design: .serif))
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
