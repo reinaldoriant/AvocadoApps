@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct RipeningView: View {
+    
+    var ripening: Ripening
     @State private var slideInAnimation: Bool = false
+    
     var body: some View {
         VStack {
-            Image("avocado-ripening-1")
+            Image(ripening.image)
                 .resizable()
                 .frame(width: 100, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -19,7 +22,7 @@ struct RipeningView: View {
                                 .fill(Color("ColorGreenLight"))
                                 .frame(width: 110, height: 110, alignment: .center))
                 .background(Circle()
-                                .fill(Color("ColorAppearanceAdptive"))
+                                .fill(Color("ColorAppearanceAdaptive"))
                                 .frame(width: 120, height: 120, alignment: .center))
                 .zIndex(1)
                 .animation(Animation.easeOut(duration: 1))
@@ -28,7 +31,7 @@ struct RipeningView: View {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 10){
                 //Stage
                 VStack(alignment: .center, spacing: 0){
-                    Text("1")
+                    Text(ripening.stage)
                         .font(.system(.largeTitle, design: .serif))
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     Text("STAGE")
@@ -39,25 +42,28 @@ struct RipeningView: View {
                 .padding(.top, 65)
                 .frame(width: 180)
                 //Title
-                Text("HARD")
+                Text(ripening.title)
                     .font(.system(.title, design: .serif))
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .foregroundColor(Color("ColorGreenMedium"))
                     .padding(.vertical,12)
                     .padding(.horizontal, 0)
                     .frame(width: 220)
-                    .background(RoundedRectangle(cornerRadius: 12)
-                                    .fill(LinearGradient(gradient: Gradient(colors: [Color.white, Color("ColorGreenLight")]), startPoint: .top, endPoint: .bottom)))
-                    .shadow(color: Color("ColorBlackTransparentLight"), radius: 6, x: 0, y: 6)
+                    .background(
+                      RoundedRectangle(cornerRadius: 12)
+                        .fill(LinearGradient(gradient: Gradient(colors: [Color.white, Color("ColorGreenLight")]), startPoint: .top, endPoint: .bottom))
+                      .shadow(color: Color("ColorBlackTransparentLight"), radius: 6, x: 0, y: 6)
+                    )
+                    
                 //Desc
                 Spacer()
-                Text("Fresh")
+                Text(ripening.description)
                     .foregroundColor(Color("ColorGreenDark"))
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .lineLimit(nil)
                 Spacer()
                 //Ripeness
-                Text("5days")
+                Text(ripening.ripeness.uppercased())
                     .foregroundColor(Color.white)
                     .font(.system(.callout, design: .serif))
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
@@ -65,12 +71,14 @@ struct RipeningView: View {
                     .padding(.vertical)
                     .padding(.horizontal, 0)
                     .frame(width: 185)
-                    .background(RoundedRectangle(cornerRadius: 12)
-                                    .fill(LinearGradient(gradient: Gradient(colors: [Color("ColorGreenMedium"), Color("ColorGreenDark")]), startPoint: .top, endPoint: .bottom))
-                                    .shadow(color: Color("ColorBlackTransparentLight"), radius: 6, x: 0, y: 6))
+                    .background(
+                      RoundedRectangle(cornerRadius: 12)
+                        .fill(LinearGradient(gradient: Gradient(colors: [Color("ColorGreenMedium"), Color("ColorGreenDark")]), startPoint: .top, endPoint: .bottom))
+                      .shadow(color: Color("ColorBlackTransparentLight"), radius: 6, x: 0, y: 6)
+                    )
                 //Instruction
-                Text("instruction")
-                    .foregroundColor(Color.white)
+                Text(ripening.instruction)
+                    .foregroundColor(Color("ColorGreenLight"))
                     .font(.footnote)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .lineLimit(3)
@@ -93,6 +101,6 @@ struct RipeningView: View {
 
 struct RipeningView_Previews: PreviewProvider {
     static var previews: some View {
-        RipeningView()
+        RipeningView(ripening: ripeningData[1])
     }
 }

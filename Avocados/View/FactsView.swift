@@ -39,7 +39,7 @@ struct FactsView: View {
                                 .frame(width: 82, height: 82, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 )
                 .background(Circle()
-                                .fill(Color("ColorAppearanceAdptive"))
+                                .fill(Color("ColorAppearanceAdaptive"))
                                 .frame(width: 90, height: 90, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 )
                 .offset(x: -150)

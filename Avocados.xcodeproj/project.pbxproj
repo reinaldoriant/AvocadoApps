@@ -29,6 +29,9 @@
 		A5F2E04D26A475560065F471 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04C26A475560065F471 /* RecipeCookingView.swift */; };
 		A5F2E04F26A4765D0065F471 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */; };
 		A5F2E05126A47F6C0065F471 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E05026A47F6C0065F471 /* RipeningView.swift */; };
+		A5F2E05326A486160065F471 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E05226A486160065F471 /* RipeningModel.swift */; };
+		A5F2E05526A4866D0065F471 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E05426A4866D0065F471 /* RipeningData.swift */; };
+		A5F2E05726A487E00065F471 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E05626A487E00065F471 /* RipeningStagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		A5F2E04C26A475560065F471 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		A5F2E05026A47F6C0065F471 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		A5F2E05226A486160065F471 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		A5F2E05426A4866D0065F471 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		A5F2E05626A487E00065F471 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 				A5F2E04C26A475560065F471 /* RecipeCookingView.swift */,
 				A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */,
 				A5F2E05026A47F6C0065F471 /* RipeningView.swift */,
+				A5F2E05626A487E00065F471 /* RipeningStagesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +140,7 @@
 				A5604F5926A11C4B00172B83 /* HeaderModel.swift */,
 				A5F2E04026A44A4B0065F471 /* FactModel.swift */,
 				A5F2E04426A459A20065F471 /* RecipeModel.swift */,
+				A5F2E05226A486160065F471 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 				A5F2E04226A44A7F0065F471 /* FactData.swift */,
 				A5604F5B26A11CC100172B83 /* HeaderData.swift */,
 				A5F2E04626A45A250065F471 /* RecipesData.swift */,
+				A5F2E05426A4866D0065F471 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -224,7 +233,9 @@
 				A5604F4D26A1065000172B83 /* AvocadoView.swift in Sources */,
 				A5604F34269FBF7800172B83 /* AvocadosApp.swift in Sources */,
 				A5604F5A26A11C4B00172B83 /* HeaderModel.swift in Sources */,
+				A5F2E05326A486160065F471 /* RipeningModel.swift in Sources */,
 				A5F2E04726A45A250065F471 /* RecipesData.swift in Sources */,
+				A5F2E05526A4866D0065F471 /* RipeningData.swift in Sources */,
 				A5F2E04526A459A20065F471 /* RecipeModel.swift in Sources */,
 				A5604F5C26A11CC100172B83 /* HeaderData.swift in Sources */,
 				A5F2E04D26A475560065F471 /* RecipeCookingView.swift in Sources */,
@@ -234,6 +245,7 @@
 				A5F2E04926A45AB80065F471 /* RecipeCardView.swift in Sources */,
 				A5604F6126A1287D00172B83 /* FactsView.swift in Sources */,
 				A5604F5726A1139000172B83 /* HeaderView.swift in Sources */,
+				A5F2E05726A487E00065F471 /* RipeningStagesView.swift in Sources */,
 				A5F2E04F26A4765D0065F471 /* RecipeDetailView.swift in Sources */,
 				A5F2E04326A44A7F0065F471 /* FactData.swift in Sources */,
 			);

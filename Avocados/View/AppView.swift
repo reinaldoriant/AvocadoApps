@@ -21,7 +21,7 @@ struct AppView: View {
                     Image("tabicon-book")
                     Text("Recipes")
                 })
-            RipeningView()
+            RipeningStagesView()
                 .tabItem({
                     Image("tabicon-avocado")
                     Text("Ripening")
