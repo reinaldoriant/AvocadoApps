@@ -48,13 +48,7 @@ struct RecipeCardView: View {
                     .italic()
                 
                 //Rates
-                HStack(alignment: .center, spacing: 5) {
-                    ForEach(1...(recipe.rating), id: \.self) { _ in
-                        Image(systemName: "star.fill")
-                            .font(.body)
-                            .foregroundColor(Color.yellow)
-                    }
-                }
+                RecipeRatingView(recipe: recipe)
                 
                 //Cooking
                 HStack(alignment: .center, spacing: 12) {

@@ -26,6 +26,7 @@
 		A5F2E04526A459A20065F471 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04426A459A20065F471 /* RecipeModel.swift */; };
 		A5F2E04726A45A250065F471 /* RecipesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04626A45A250065F471 /* RecipesData.swift */; };
 		A5F2E04926A45AB80065F471 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04826A45AB80065F471 /* RecipeCardView.swift */; };
+		A5F2E04B26A474DB0065F471 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		A5F2E04426A459A20065F471 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		A5F2E04626A45A250065F471 /* RecipesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesData.swift; sourceTree = "<group>"; };
 		A5F2E04826A45AB80065F471 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				A5604F5E26A1210300172B83 /* DishesView.swift */,
 				A5604F6026A1287D00172B83 /* FactsView.swift */,
 				A5F2E04826A45AB80065F471 /* RecipeCardView.swift */,
+				A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5604F5126A1067C00172B83 /* SettingsView.swift in Sources */,
+				A5F2E04B26A474DB0065F471 /* RecipeRatingView.swift in Sources */,
 				A5604F36269FBF7800172B83 /* ContentView.swift in Sources */,
 				A5604F5526A1077900172B83 /* AppView.swift in Sources */,
 				A5604F4F26A1066E00172B83 /* RippeningView.swift in Sources */,
