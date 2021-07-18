@@ -24,7 +24,7 @@ struct RecipeCardView: View {
                                     .font(Font.title.weight(.light))
                                 .foregroundColor(Color.white)
                                 .imageScale(.small)
-                                .shadow(color: Color("ColorBlackTransparent"), radius: 2, x: 0, y: 0)
+                                .shadow(color: Color("ColorBlackTransparentLight"), radius: 2, x: 0, y: 0)
                                 .padding(.trailing,20)
                                 .padding(.top,22)
                             Spacer()

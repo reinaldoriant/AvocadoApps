@@ -28,6 +28,7 @@
 		A5F2E04926A45AB80065F471 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04826A45AB80065F471 /* RecipeCardView.swift */; };
 		A5F2E04B26A474DB0065F471 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */; };
 		A5F2E04D26A475560065F471 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04C26A475560065F471 /* RecipeCookingView.swift */; };
+		A5F2E04F26A4765D0065F471 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		A5F2E04826A45AB80065F471 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		A5F2E04C26A475560065F471 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				A5F2E04826A45AB80065F471 /* RecipeCardView.swift */,
 				A5F2E04A26A474DB0065F471 /* RecipeRatingView.swift */,
 				A5F2E04C26A475560065F471 /* RecipeCookingView.swift */,
+				A5F2E04E26A4765D0065F471 /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				A5F2E04926A45AB80065F471 /* RecipeCardView.swift in Sources */,
 				A5604F6126A1287D00172B83 /* FactsView.swift in Sources */,
 				A5604F5726A1139000172B83 /* HeaderView.swift in Sources */,
+				A5F2E04F26A4765D0065F471 /* RecipeDetailView.swift in Sources */,
 				A5F2E04326A44A7F0065F471 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
