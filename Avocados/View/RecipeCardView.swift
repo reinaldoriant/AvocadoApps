@@ -51,28 +51,7 @@ struct RecipeCardView: View {
                 RecipeRatingView(recipe: recipe)
                 
                 //Cooking
-                HStack(alignment: .center, spacing: 12) {
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "person.2")
-                        Text("Serves: \(recipe.serves)")
-                        
-                    }
-                    
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "clock")
-                        Text("Serves: \(recipe.preparation)")
-                        
-                    }
-                    
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "flame")
-                        Text("Serves: \(recipe.cooking)")
-                        
-                    }
-                    
-                }
-                .font(.footnote)
-                .foregroundColor(Color.gray)
+                RecipeCookingView(recipe: recipe)
                 
             }
             .padding()
